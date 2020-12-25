@@ -41,11 +41,16 @@ Configuration options
 #
 # Example
 ###
+```
 $css = new Magickcss;
+```
 ###
 ## Set configuration options
 ###
+```
 $css->minify = true;
+$css->selector_prefix = 'md';
+```
 ###
 ### Load and modify file
 ```
