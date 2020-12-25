@@ -1,5 +1,12 @@
 <?php
-	
+	/**
+		* magickcss.php
+		*
+		* This is a PHP class that is used to parse stylesheet file into arrays. 
+		* It also provides many functions to modify css files.
+		* @author Leo Anthony <webictbyleo@gmail.com>
+		* @link   https://github.com/Webictbyleo/magickcss
+	*/
 	class MagickCss{
 		
 		private $cssData = array(),
