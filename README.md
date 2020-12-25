@@ -69,8 +69,8 @@ $css->removeFont('roboto');
 ### Add and modify animation keyframe
 ```
 $css->addKeyFrame('glow');
-$css->appendKeyframe('glow','0%',['opacity'=>0,'width':0]);
-$css->appendKeyframe('glow','100%',['opacity'=>1,'width':'100px']);
+$css->appendKeyframe('glow','0%',['opacity'=>0,'width'=>0]);
+$css->appendKeyframe('glow','100%',['opacity'=>1,'width'=>'100px']);
 ```
 
 ### Export to css file
